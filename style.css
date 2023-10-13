@@ -481,29 +481,34 @@ button svg {
 
 @media (max-width:430px) {
   .header {
-    margin-left: 120px;
+    margin-left: 100px;
+  }
+
+  .header img{
+    margin-left: 5%;
+    margin-top: 4%;
   }
 
   .mulit {
-    width: 428px;
-    height: 428px;
+    width: 100%;
+    height: 420px;
   }
 
   #pro {
-    width: 428px;
-    height: 428px;
+    width: 100%;
+    height: 420px;
   }
 
   .pro h1 {
-    font-size: 23px;
-    width: 400px;
-    margin-top: 32%;
-    margin-left: 2%;
-    margin-bottom: 60%;
+    font-size: 22px;
+    width:90%;
+    margin-top: 50%;
+    margin-left: 3%;
+    margin-bottom: 40%;
   }
 
   .container-space2 {
-    margin-left: 5%;
+    margin-left: 4%;
   }
 
   .caps {
@@ -513,19 +518,19 @@ button svg {
   }
 
   .state h1 {
-    font-size: 75px;
+    font-size: 65px;
   }
 
   .content h1 {
-    width: 370px;
+    width: 90%;
     margin-left: 5%;
     margin-top: 4%;
     font-size: 30px;
   }
 
   .list {
-    width: 425px;
-    margin-left: 0%;
+    width: 100%;
+    margin-left: 3%;
   }
 
   .list h2 {
@@ -539,7 +544,7 @@ button svg {
   }
 
   .contact {
-    width: 340px;
+    width: 95%;
     margin-left: 4%;
   }
 
