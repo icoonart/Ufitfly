@@ -247,14 +247,14 @@ button svg{
     transform: translateY(60%);
   }
   
-  .button4::before {
+  /* .button4::before {
     position: absolute;
     top: -1px;
     content: "x";
     color: white;
     transition-duration: .3s;
     font-size: 2px;
-  }
+  } */
   
   .button4:hover::before {
     font-size: 13px;
@@ -304,14 +304,14 @@ button svg{
     transform: translateY(60%);
   }
   
-  .button3::before {
+  /* .button3::before {
     position: absolute;
     top: -1px;
     content: "website";
     color: white;
     transition-duration: .3s;
     font-size: 2px;
-  }
+  } */
   
   .button3:hover::before {
     font-size: 13px;
@@ -361,14 +361,14 @@ button svg{
     transform: translateY(60%);
   }
   
-  .button2::before {
+  /* .button2::before {
     position: absolute;
     top: -1px;
     content: "Instagram";
     color: white;
     transition-duration: .3s;
     font-size: 2px;
-  }
+  } */
   
   .button2:hover::before {
     font-size: 13px;
@@ -418,14 +418,14 @@ button svg{
     transform: translateY(60%);
   }
   
-  .button1::before {
+  /* .button1::before {
     position: absolute;
     top: -1px;
     content: "Facebook";
     color: white;
     transition-duration: .3s;
     font-size: 2px;
-  }
+  } */
   
   .button1:hover::before {
     font-size: 13px;
@@ -467,7 +467,7 @@ button svg{
     .content h1{
         width: 700px;
         margin-left: 2%;
-        margin-top: 8%;
+        margin-top: 4%;
     }
 
     .list{
@@ -486,4 +486,8 @@ button svg{
     .footer{
         width: 500px;
     }
+  }
+
+  @media (max-width:425px) {
+    
   }
