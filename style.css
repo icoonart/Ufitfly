@@ -7,6 +7,7 @@
 body {
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
+    overflow: scroll;
 }
 
 .header {
@@ -225,7 +226,6 @@ button svg{
   }
   
   #x {
-    /* width: 12px; */
     transition-duration: .3s;
   }
   
@@ -247,14 +247,7 @@ button svg{
     transform: translateY(60%);
   }
   
-  /* .button4::before {
-    position: absolute;
-    top: -1px;
-    content: "x";
-    color: white;
-    transition-duration: .3s;
-    font-size: 2px;
-  } */
+
   
   .button4:hover::before {
     font-size: 13px;
@@ -282,7 +275,6 @@ button svg{
   }
   
   #s3 {
-    /* width: 12px; */
     transition-duration: .3s;
   }
   
@@ -304,14 +296,7 @@ button svg{
     transform: translateY(60%);
   }
   
-  /* .button3::before {
-    position: absolute;
-    top: -1px;
-    content: "website";
-    color: white;
-    transition-duration: .3s;
-    font-size: 2px;
-  } */
+
   
   .button3:hover::before {
     font-size: 13px;
@@ -339,7 +324,6 @@ button svg{
   }
   
   #s2 {
-    /* width: 12px; */
     transition-duration: .3s;
   }
   
@@ -361,15 +345,7 @@ button svg{
     transform: translateY(60%);
   }
   
-  /* .button2::before {
-    position: absolute;
-    top: -1px;
-    content: "Instagram";
-    color: white;
-    transition-duration: .3s;
-    font-size: 2px;
-  } */
-  
+
   .button2:hover::before {
     font-size: 13px;
     opacity: 1;
@@ -396,7 +372,6 @@ button svg{
   }
   
   #s1 {
-    /* width: 12px; */
     transition-duration: .3s;
   }
   
@@ -418,14 +393,7 @@ button svg{
     transform: translateY(60%);
   }
   
-  /* .button1::before {
-    position: absolute;
-    top: -1px;
-    content: "Facebook";
-    color: white;
-    transition-duration: .3s;
-    font-size: 2px;
-  } */
+ 
   
   .button1:hover::before {
     font-size: 13px;
@@ -437,57 +405,88 @@ button svg{
 
   @media (max-width:375px){
     .header{
-        margin-left:260px;
+        margin-left:90px;
     }
 
     .mulit{
-        width: 730px;
+        width: 375px;
+        height: 375px;
     }
 
     #pro{
-        width: 720px;
+        width: 375px;
+        height: 375px;
     }
 
     .pro h1{
-        font-size: 40px;
-        width: 700px;
-        margin-top: 120%;
-        margin-left: 4%;
+        font-size: 20px;
+        width: 370px;
+        margin-top: 30%;
+        margin-left: 2%;
         margin-bottom: 60%;
     }
 
     .container-space2{
-        margin-left: 30%;
+        margin-left: 5%;
     }
 
     .caps{
-        margin-top: 10%;
+        margin-top: 8%;
+        width: 50px;
+        height: 30px;
     }
+    
+.state h1{
+  font-size: 60px;
+}
 
     .content h1{
-        width: 700px;
-        margin-left: 2%;
+        width: 350px;
+        margin-left: 0%;
         margin-top: 4%;
+        font-size: 25px;
     }
 
     .list{
-        width: 700px;
-        margin-left:3.5%;
+        width: 450px;
+        margin-left:0%;
+        overflow: scroll;
+        border: 1px solid green;
     }
 
     .list h2{
-        font-size: 24px;
+        font-size: 16px;
+    }
+
+    .list img{
+      margin-right: 0%;
+      height: 30px;
     }
 
     .contact{
-        width: 600px;
+        width: 340px;
+        margin-left: 4%;
     }
+
+    #info{
+      margin-left: 5%;
+      font-size: 16px;
+      margin-top: 7%;
+    }
+
 
     .footer{
-        width: 500px;
+        width: 300px;
+        margin-left: 14%;
     }
   }
 
-  @media (max-width:425px) {
-    
+  /* @media (max-width:425px) {
+    .header{
+      margin-left:160px;
   }
+
+  .mulit{
+      width: 730px;
+  }
+  } */
