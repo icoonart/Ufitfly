@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+#mobile{
+  display: none;
+  animation: slideup 1s ease-in forwards;
+}
+
 body {
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
@@ -101,6 +106,18 @@ body {
   display: flex;
   margin-top: 10%;
   margin-left: 35%;
+  animation: slideright 2s ease-in forwards;
+}
+
+@keyframes slideright {
+  0% { 
+    transform: translateX(-200px);
+    opacity: 0;
+}
+100%{
+  transform: translatey(0px);
+  opacity: 1;
+}
 }
 
 .content h1 {
@@ -114,6 +131,18 @@ body {
 
 .content {
   margin-top: 5%;
+  animation: slideleft1 1s ease-in forwards;
+}
+
+@keyframes slideleft1 {
+  0% { 
+    transform: translateX(200px);
+    opacity: 0;
+}
+100%{
+  transform: translateX(0px);
+  opacity: 1;
+}
 }
 
 .list {
@@ -172,6 +201,7 @@ button svg {
   margin-left: 33%;
   height: 80px;
   width: 30%;
+  animation: slideleft1 1s ease-in forwards;
 }
 
 .footer div {
@@ -205,6 +235,39 @@ button svg {
 }
 
 
+.container-space1{
+  animation: slideleft 1s ease-in forwards;
+}
+
+@keyframes slideleft {
+  0% { 
+    transform: translateX(-200px);
+    opacity: 0;
+}
+100%{
+  transform: translateX(0px);
+  opacity: 1;
+}
+}
+
+#pro{
+  animation: slideup 1s ease-in forwards;
+}
+
+@keyframes slideup {
+  0% { 
+    transform: translatey(200px);
+    opacity: 0;
+}
+100%{
+  transform: translatey(0px);
+  opacity: 80%;
+}
+}
+
+.mulit{
+  animation: slideup 1s ease-in forwards;
+}
 
 
 .button4 {
@@ -402,84 +465,18 @@ button svg {
 }
 
 
-/* @media (max-width:375px) {
-  .header {
-    margin-left: 90px;
-  }
 
-  .mulit {
-    width: 375px;
-    height: 375px;
-  }
-
-  #pro {
-    width: 375px;
-    height: 375px;
-  }
-
-  .pro h1 {
-    font-size: 20px;
-    width: 370px;
-    margin-top: 30%;
-    margin-left: 2%;
-    margin-bottom: 60%;
-  }
-
-  .container-space2 {
-    margin-left: 5%;
-  }
-
-  .caps {
-    margin-top: 8%;
-    width: 50px;
-    height: 30px;
-  }
-
-  .state h1 {
-    font-size: 60px;
-  }
-
-  .content h1 {
-    width: 350px;
-    margin-left: 0%;
-    margin-top: 4%;
-    font-size: 25px;
-  }
-
-  .list {
-    width: 450px;
-    margin-left: 0%;
-    overflow: scroll;
-  }
-
-  .list h2 {
-    font-size: 16px;
-  }
-
-  .list img {
-    margin-right: 0%;
-    height: 30px;
-  }
-
-  .contact {
-    width: 340px;
-    margin-left: 4%;
-  }
-
-  #info {
-    margin-left: 5%;
-    font-size: 16px;
-    margin-top: 7%;
-  }
-
-
-  .footer {
-    width: 300px;
-    margin-left: 14%;
-  }
-} */
 
 @media (max-width:430px) {
+#mobile{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 420px;
+  top: 0%;
+  z-index: -99;
+}
+
   .header {
     margin-left: 100px;
   }
@@ -492,11 +489,11 @@ button svg {
   .mulit {
     width: 100%;
     height: 420px;
+    z-index: -9;
   }
 
   #pro {
-    width: 100%;
-    height: 420px;
+  display: none;
   }
 
   .pro h1 {
